@@ -1,0 +1,258 @@
+@font-face {
+    font-family: 'BEBAS';
+    src: url('fonts/BEBAS___.ttf') format('truetype');
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background-color: #FFFFFF;
+  font-family: sans-serif;
+}
+
+/* navigation */
+nav ul {
+    display: flex;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    justify-content: space-between;
+    list-style-type: none;
+    width: 50%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+nav li {
+    padding: 2%;
+    transition-property: background-color;
+    transition-duration: 1s;
+}
+
+nav li:hover {
+    background-color: #585858;
+}
+
+nav li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+/* END navigation */
+
+/* banner image */
+.banner-image {
+  /* margin-top: 50px; */
+  color: #FFFFFF;
+  font-size: 5em;
+  height: 800px;
+  background-image: url('images/vancourtland_1920x1200.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner-image h1 {
+  text-align: center;
+  padding-top: 300px;
+  margin: auto;
+}
+
+
+/* END banner image */
+
+/* page content */
+.content {
+  /* max-width: 1200px; */
+  max-width: 60%;
+  margin: auto;
+  display: flex;
+  padding: 3%;
+}
+
+.content-text {
+  padding-right: 4%;    
+}
+
+.content-img {
+    flex: 1;
+} 
+/* END page content */
+
+/* links */
+.links {
+  width: 60%;
+  margin: auto;
+}
+
+.link-row-1, .link-row-2, .link-row-3 {
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+}
+
+.link {
+    width: 49%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link h1 {
+    font-family: BEBAS, 'Arial Black', sans-serif;
+}
+
+
+.link ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.link li {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.link a:hover {
+    color: #0080FF;
+}
+
+.link-dark {
+    background-color: #182d0c;
+    color: #FFFFFF;
+}
+
+.link-light {
+    background-color: #d4ff58;
+    color: #000000;
+}
+
+.link-light a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+}
+
+.link-dark a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+#link-image {
+  background-image: url('images/bronx_wall_art.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+/* END links */
+
+/* images */
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.images {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+/* END images */
+
+.btn {
+    padding: 1%;
+    position: fixed; 
+    bottom: 35px; 
+    right: 35px; 
+    border-radius: 20px; 
+    background-color: #000000;
+    width: 15px;
+}
+
+.btn a {
+    color: #FFFAF0; 
+    text-decoration: none; 
+    font-size: 15px; 
+}
+
+footer {
+    padding: 2%;
+    text-align: center;
+}
+
+.team-name {
+    color: #ffa500;
+}
+
+/* tablet media query */
+@media screen and (max-width: 900px) {
+  .banner-image h1 {
+      font-size: 85%;
+  }
+
+  .content {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .links {
+      width: 65%;
+      margin: auto;
+  }
+
+  .link-row-1, .link-row-2, .link-row-3 {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .link {
+      width: 100%;
+      margin: 1%;
+  }
+
+  .images {
+      display: flex;
+      flex-direction: column;
+  }
+}
+/* END tablet media query */
+
+/* phone media query */
+@media screen and (max-width: 480px) {
+  .banner-image h1 {
+      font-size: 85%;
+  }
+
+  .content {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .links {
+      width: 96%;
+      margin: auto;
+  }
+
+  .link-row-1, .link-row-2, .link-row-3 {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .link {
+      width: 100%;
+      margin: 1%;
+  }
+
+  .images {
+      display: flex;
+      flex-direction: column;
+  }
+}
+/* END phone media query */

@@ -1,0 +1,47 @@
+body{
+    font-family: sans-serif;
+    text-align: center;
+    background-color: #EDD4B2;
+    
+}
+
+nav ul {
+    padding: 1%;
+    display:flex;
+    top: 0px; 
+    left: 0px; 
+    right: 0px;
+    justify-content:space-around;
+    list-style-type: none;
+    width:70%;
+    margin:auto; 
+    background-color: #FFD275;
+}
+
+.middle{
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.middle2{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.about, .mission, .involved, .giveback{
+    height:300px ;
+    width:300px;
+    margin:1%;
+    background-color: #683257;
+}
+
+.middle img, .middle2 img{
+   height:300px ;
+    width:300px;  
+}

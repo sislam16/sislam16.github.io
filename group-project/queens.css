@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'BEBAS';
+    src: url('fonts/BEBAS___.ttf') format('truetype');
+}
+
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #fffaf0; 
+    font-family: sans-serif;
+}
+
+/* top navigation bar */
+nav ul {
+    padding: 1%;
+    display:flex;
+    position: fixed; 
+    top: 0px; 
+    left: 0px; 
+    right: 0px;
+    justify-content:space-between;
+    list-style-type: none;
+    width:50%;
+    margin:auto; background-color: rgba(0, 0, 0, .75); 
+}
+
+li a {
+    padding: 2px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+li a:hover {
+    color: #ff0000 /* text color changes when hover */; 
+    background-color: #f5f5dc /* text background color changes when hover */;
+}
+
+/* five boroughs slideshow */
+.queens1 {
+    background-image: url('images/tennis.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100%;
+    padding:300px; 
+    color: #FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
+.queens2 {
+    padding-left: 10%; 
+    padding-right: 10%; 
+    padding-top: 2%; 
+    padding-bottom: 2%; 
+    line-height: 135%; 
+    display: flex;
+}
+
+.queensbanner {
+    text-align: center;
+    font-size: 7em;
+}
+
+.queensbanner:hover {
+    transform: scale(1.5) /* zoom changes when hover */; 
+    color: #ffff00/* color changes when hover */; 
+    transition-duration: 2s;
+}
+
+div h1 {
+    background: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+}
+
+/* paragraph and flag */
+.queens2 p {
+    padding: 5%; 
+    padding-right: 2%;
+}
+
+.queens2 img {
+    height: 250px; 
+    padding: 5%; 
+    padding-left: 2%;
+}
+
+.qnsbig {
+    font-size: 35px;
+}
+
+.qnslinks {
+    width: 60%;
+    margin: auto;
+}
+
+.first2, .second2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 1%;
+}
+
+.link {
+    width: 49%;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link:hover {
+    transform: scale(1.1);
+    transition-duration: 2s;
+}
+
+.link h2 {
+    font-family: BEBAS, 'Arial Black', sans-serif;
+}
+
+.link h2:hover {color: #ff4500;}
+
+.link ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+.link li {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.link a:hover {
+    color: #0080FF;
+}
+
+.dark {
+    background-color: #5c705c;
+    color: #FFFFFF;
+}
+
+.light {
+    background-color: #adebdb;
+    color: #000000;
+}
+
+.light a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+    color: #000000;
+}
+
+.dark a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.qnsimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.qnsimgs {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* button to scroll up */
+.button {
+    padding: 1%;
+    position: fixed; 
+    bottom: 35px; 
+    right: 35px; 
+    border-radius: 20px; 
+    background-color: #000000;
+}
+
+.button a {
+    color: #fffaf0; 
+    text-decoration: none; 
+    font-size: 15px; 
+}
+
+/* footer */
+.endline {
+    text-align: center; 
+    font-size: 12px;
+}
+
+.ot {
+    color: #FFA500; 
+    font-size: 14px;
+}
+
+/* button to scroll up */
+button {
+    position: fixed; 
+    bottom: 35px; 
+    right: 35px; 
+    border-radius: 20px; 
+    background-color: #000000;
+}
+
+button a {
+    color: #fffaf0; 
+    text-decoration: none; 
+    font-size: 15px; 
+}
+
+/* footer */
+footer {
+    padding: 2%;
+    text-align: center;
+}
+
+.team-name {
+    color: #ffa500;
+}
+
+
+
