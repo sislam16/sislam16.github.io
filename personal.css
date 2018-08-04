@@ -1,7 +1,7 @@
 /*font for website*/
 @font-face {
     font-family: 'Fira Sans';
-    src: url('Fira_Sans/FiraSans-regular.ttf') 
+    src: url('Fira_Sans/FiraSans-regular.ttf'); 
     format('truetype');
 }
 
@@ -12,6 +12,7 @@ body{
     
 }
 
+/*navigation css*/
 nav ul {
     padding: 5px;
     display:flex;
