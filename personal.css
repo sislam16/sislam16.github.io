@@ -67,6 +67,16 @@ ul a{
     height: 30px;
 }
 
+.about p{
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.mission p{
+    padding left:5px;
+    padding-right:5px;
+}
+
 .middle2{
     text-align: center;
     display: flex;
@@ -79,6 +89,17 @@ ul a{
     width:35px;
     height:30px;
 }
+
+.involved p{
+    padding-left:5px;
+    padding-right:5px;
+}
+
+.giveback p{
+    padding-left:5px;
+    padding-right:5px;
+}
+
 .about, .mission, .involved, .giveback{
     height:250px ;
     width:250px;
